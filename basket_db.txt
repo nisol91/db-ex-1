@@ -2,10 +2,11 @@ tabella: giocatori
 
 colonne:
 
-- ID - primary Key | not null | auto increment |  unique
-- codice
-- falli
-- perc tiri da 2 -
-- perc tiri da 3 -
-- punti -
-- rimbalzi -
+- ID - primary_Key | not_null | auto_increment |  unique
+- nome - varchar(20) | not_null
+- codice - varchar(6) | not_null
+- falli - tinyint
+- perc_tiri_2 - float(4, 2)
+- perc_tiri_3 - float(4, 2)
+- punti - tinyint
+- rimbalzi - smallint
