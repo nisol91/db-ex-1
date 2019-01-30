@@ -1,0 +1,11 @@
+tabella: giocatori
+
+colonne:
+
+- ID - primary Key | not null | auto increment |  unique
+- codice
+- falli
+- perc tiri da 2 -
+- perc tiri da 3 -
+- punti -
+- rimbalzi -
