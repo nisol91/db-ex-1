@@ -5,12 +5,15 @@ colonne:
 - ID - primary_Key | not_null | auto_increment |  unique
 - nome - varchar(20) | not_null
 - codice - varchar(6) | not_null
-- anno - tinyint
+- prezzo -
+- anno - year
 - km_percorsi - float(4, 2)
 - cilindrata - float(4, 2)
 - potenza - tinyint
+- carburante -
 - colore - smallint
-- colore - smallint
-- colore - smallint
-- colore - smallint
-- colore - smallint
+- descrizione - smallint
+- segni_usura - smallint
+- porte - smallint
+- posizione_nel_concessionario -
+- provenienza_primo_acquisto -
