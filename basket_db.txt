@@ -2,11 +2,18 @@ tabella: giocatori
 
 colonne:
 
-- ID - primary_Key | not_null | auto_increment |  unique
+- ID - int | primary_Key | not_null | auto_increment |  unique
 - nome - varchar(20) | not_null
 - codice - varchar(6) | not_null
+- data_nascita - data
+- peso - float(3, 2)
+- altezza - float(4, 2)
 - falli - tinyint
 - perc_tiri_2 - float(4, 2)
 - perc_tiri_3 - float(4, 2)
-- punti - tinyint
+- media_punti - float(4, 2)
 - rimbalzi - smallint
+- immagine - varchar(50)
+- nazione_nascita - varchar(20)
+- stipendio - mediumint //oppure varchar(10) // oppure float (3, 2)
+- infortunato - tinyint | default 0 //significa : e' infortunato? vero(1), falso(0), di default falso.
