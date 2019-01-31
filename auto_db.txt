@@ -5,10 +5,10 @@ colonne:
 - ID - int | primary_Key | not_null | auto_increment |  unique
 - nome - varchar(20) | not_null
 - codice - varchar(6) | not_null
-- prezzo - float(10, 2)
+- prezzo - mediumint //oppure varchar(10)
 - anno - year
 - targa - varchar(10) | not_null | unique
-- km_percorsi - float(4, 2)
+- km_percorsi - smallint
 - cilindrata - smallint
 - potenza - smallint
 - carburante - varchar(10)
